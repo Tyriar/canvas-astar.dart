@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Astar dart</title>
+    <link rel="stylesheet" href="canvas_astar.css">
+  </head>
+  <body>
+    <h1>Astar dart</h1>
+
+    <label>
+      Map width:
+      <input type="number" bind-value="mapWidth" on-change="resizeMap()" min="4" />
+    </label>
+    <label>
+      Map height:
+      <input type="number" bind-value="mapHeight" on-change="resizeMap()" min="4" />
+    </label>
+    <label>
+      Map scale:
+      <input type="range" bind-value="mapScale" min="1" max="10" />
+      <span>{{mapScale}}</span>
+    </label>
+    
+    <canvas id="astar"></canvas>
+
+    <button id="run">Run</button>
+    <button id="clear">Clear obstacles</button>
+    <div id="info"></div>
+    
+    <script type="application/dart" src="canvas_astar.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

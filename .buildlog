@@ -1,0 +1,700 @@
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [572 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 386 ms
+Total time                                                   -- 416 ms
+build.dart finished [1018 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [599 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 377 ms
+Total time                                                   -- 405 ms
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  31 ms
+build.dart finished [759 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 412 ms
+Total time                                                   -- 441 ms
+build.dart finished [1006 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [782 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 376 ms
+Total time                                                   -- 404 ms
+build.dart finished [951 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [544 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 393 ms
+Total time                                                   -- 422 ms
+build.dart finished [960 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [544 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.dart
+Total time                                                   --  25 ms
+build.dart finished [636 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.css
+Total time                                                   --  25 ms
+build.dart finished [647 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 396 ms
+Total time                                                   -- 425 ms
+build.dart finished [929 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  24 ms
+build.dart finished [564 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 459 ms
+Total time                                                   -- 487 ms
+build.dart finished [1009 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 387 ms
+Total time                                                   -- 414 ms
+build.dart finished [941 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  29 ms
+build.dart finished [645 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 403 ms
+Total time                                                   -- 445 ms
+build.dart finished [970 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [796 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 407 ms
+Total time                                                   -- 440 ms
+build.dart finished [1030 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [620 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.html
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 486 ms
+Total time                                                   -- 515 ms
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [645 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.html
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 478 ms
+Total time                                                   -- 508 ms
+build.dart finished [1193 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [725 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.html
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 458 ms
+Total time                                                   -- 487 ms
+build.dart finished [1032 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  28 ms
+build.dart finished [643 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 431 ms
+Total time                                                   -- 459 ms
+build.dart finished [1087 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  24 ms
+build.dart finished [671 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 426 ms
+Total time                                                   -- 470 ms
+build.dart finished [1024 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [720 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 416 ms
+Total time                                                   -- 445 ms
+build.dart finished [982 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  28 ms
+build.dart finished [609 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 430 ms
+Total time                                                   -- 459 ms
+build.dart finished [985 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [529 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 377 ms
+Total time                                                   -- 407 ms
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [580 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 420 ms
+Total time                                                   -- 508 ms
+build.dart finished [1024 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  24 ms
+build.dart finished [626 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 407 ms
+Total time                                                   -- 434 ms
+build.dart finished [1048 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [552 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 378 ms
+Total time                                                   -- 407 ms
+build.dart finished [1030 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [602 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 380 ms
+Total time                                                   -- 409 ms
+build.dart finished [1073 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  28 ms
+build.dart finished [695 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.html
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 532 ms
+Total time                                                   -- 560 ms
+build.dart finished [1059 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [573 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 392 ms
+Total time                                                   -- 464 ms
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [524 ms]
+
+---
+build.dart --machine --changed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 449 ms
+Total time                                                   -- 477 ms
+build.dart finished [1051 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  24 ms
+build.dart finished [573 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 461 ms
+Total time                                                   -- 494 ms
+build.dart finished [999 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   -- 341 ms
+build.dart finished [1271 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 408 ms
+Total time                                                   -- 437 ms
+build.dart finished [966 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  27 ms
+build.dart finished [724 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 425 ms
+Total time                                                   -- 455 ms
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [582 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 405 ms
+Total time                                                   -- 433 ms
+build.dart finished [983 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  38 ms
+build.dart finished [595 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 404 ms
+Total time                                                   -- 435 ms
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [575 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 392 ms
+Total time                                                   -- 424 ms
+build.dart finished [1043 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [546 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 460 ms
+Total time                                                   -- 489 ms
+build.dart finished [1058 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  27 ms
+build.dart finished [584 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 419 ms
+Total time                                                   -- 448 ms
+build.dart finished [980 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [611 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 435 ms
+Total time                                                   -- 477 ms
+build.dart finished [1540 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  27 ms
+build.dart finished [1490 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 453 ms
+Total time                                                   -- 482 ms
+build.dart finished [1052 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [677 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 433 ms
+Total time                                                   -- 463 ms
+build.dart finished [1224 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [558 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 424 ms
+Total time                                                   -- 453 ms
+build.dart finished [989 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [557 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 422 ms
+Total time                                                   -- 452 ms
+build.dart finished [1015 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  33 ms
+build.dart finished [594 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 392 ms
+Total time                                                   -- 423 ms
+build.dart finished [1045 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [605 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 390 ms
+Total time                                                   -- 419 ms
+build.dart finished [936 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  31 ms
+build.dart finished [549 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 521 ms
+Total time                                                   -- 556 ms
+build.dart finished [1051 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [649 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 389 ms
+Total time                                                   -- 481 ms
+build.dart finished [1017 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  25 ms
+build.dart finished [619 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 394 ms
+Total time                                                   -- 425 ms
+build.dart finished [1120 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  27 ms
+build.dart finished [590 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 1237 ms
+Total time                                                   -- 1711 ms
+build.dart finished [15914 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  27 ms
+build.dart finished [718 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+Total time spent on web/astar_dart.html                      -- 630 ms
+Total time                                                   -- 665 ms
+build.dart finished [1744 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  46 ms
+build.dart finished [1326 ms]
+
+---
+build.dart --machine --full
+Unable to open file: C:/Users/Daniel & Jasmine/Documents/GitHub/canvas-astar.dart/packages/web_ui/component_build.dart'file:///C:/Users/Daniel & Jasmine/Documents/GitHub/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [1039 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/Daniel & Jasmine/Documents/GitHub/canvas-astar.dart/packages/web_ui/component_build.dart'file:///C:/Users/Daniel & Jasmine/Documents/GitHub/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [50 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  57 ms
+build.dart finished [561 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  30 ms
+build.dart finished [872 ms]
+
+---
+build.dart --machine --changed=web\out\astar_dart.css --changed=web\out\astar_dart.dart --changed=web\out\astar...
+Total time                                                   --  26 ms
+build.dart finished [601 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.css --removed=web\astar_dart.css
+Total time                                                   --  28 ms
+build.dart finished [631 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.html --removed=web\astar_dart.html
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+error unable to open file "web/astar_dart.html"
+Total time spent on web/astar_dart.html                      --  14 ms
+Total time                                                   --  44 ms
+build.dart finished [636 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart --removed=web\astar_dart.dart
+[{"method":"mapping","params":{"from":"web/astar_dart.html","to":"web\\out\\astar_dart.html"}}]
+error unable to open file "web/astar_dart.html"
+Total time spent on web/astar_dart.html                      --  15 ms
+Total time                                                   --  42 ms
+build.dart finished [595 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.html
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+[{"method":"warning","params":{"file":"web/canvas_astar.html","message":"unable to open file \"web\\astar_dart.css\"","line":7,"charStart":94,"charEnd":139}}]
+Total time spent on web/canvas_astar.html                    -- 394 ms
+Total time                                                   -- 423 ms
+build.dart finished [991 ms]
+
+---
+build.dart --machine --changed=web\out\canvas_astar.dart --changed=web\out\canvas_astar.dart.map --changed=web\...
+Total time                                                   --  29 ms
+build.dart finished [629 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.html
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+Total time spent on web/canvas_astar.html                    -- 1066 ms
+Total time                                                   -- 1104 ms
+build.dart finished [2242 ms]
+
+---
+build.dart --machine --changed=web\out\canvas_astar.css --changed=web\out\canvas_astar.dart --changed=web\out\c...
+Total time                                                   --  25 ms
+build.dart finished [942 ms]
+
+---
+build.dart --machine --changed=web\out\canvas_astar.css --changed=web\out\canvas_astar.dart --changed=web\out\c...
+Total time                                                   --  26 ms
+build.dart finished [949 ms]
+
+---
+build.dart --machine --changed=LICENSE --changed=README.md
+Total time                                                   --  33 ms
+build.dart finished [667 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+Total time spent on web/canvas_astar.html                    -- 445 ms
+Total time                                                   -- 503 ms
+build.dart finished [1071 ms]
+
+---
+build.dart --machine --changed=web\out\canvas_astar.css --changed=web\out\canvas_astar.dart --changed=web\out\c...
+Total time                                                   --  74 ms
+build.dart finished [602 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+Total time spent on web/canvas_astar.html                    -- 523 ms
+Total time                                                   -- 555 ms
+build.dart finished [1152 ms]
+
+---
+build.dart --machine --changed=web\out\canvas_astar.css --changed=web\out\canvas_astar.dart --changed=web\out\c...
+Total time                                                   --  48 ms
+build.dart finished [703 ms]
+
+---
+build.dart --machine --changed=web\astarnode.dart
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+Total time spent on web/canvas_astar.html                    -- 411 ms
+Total time                                                   -- 446 ms
+build.dart finished [1240 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart --changed=web\out\canvas_astar.css --changed=web\out\canvas_as...
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+Total time spent on web/canvas_astar.html                    -- 457 ms
+Total time                                                   -- 571 ms
+build.dart finished [1122 ms]
+
+---
+build.dart --machine --changed=web\array2d.dart --changed=web\out\canvas_astar.css --changed=web\out\canvas_ast...
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+Total time spent on web/canvas_astar.html                    -- 422 ms
+Total time                                                   -- 451 ms
+build.dart finished [1272 ms]
+
+---
+build.dart --machine --changed=web\out\canvas_astar.css --changed=web\out\canvas_astar.dart --changed=web\out\c...
+Total time                                                   --  27 ms
+build.dart finished [724 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   --  26 ms
+build.dart finished [636 ms]
+
+---
+build.dart --machine --changed=README.md
+Total time                                                   --  25 ms
+build.dart finished [583 ms]
+
