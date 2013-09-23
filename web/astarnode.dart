@@ -4,7 +4,7 @@
  *
  * Created by Daniel Imms, http://www.growingwiththeweb.com
  */
-import 'dart:html';
+library Astarnode;
 
 class AstarNode {
   AstarNode parent;

@@ -698,3 +698,249 @@ build.dart --machine --changed=README.md
 Total time                                                   --  25 ms
 build.dart finished [583 ms]
 
+---
+build.dart --machine --full
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [820 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [276 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [259 ms]
+
+---
+build.dart --machine --changed=web\astarnode.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [107 ms]
+
+---
+build.dart --machine --changed=web\astarnode.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [107 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [119 ms]
+
+---
+build.dart --machine --changed=web\astarmap.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [105 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [105 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+Do not know how to load 'dart:uri''package:analyzer_experimental/src/generated/java_core.dart': Error: line 4 pos 1: library handler failed
+import "dart:uri";
+^
+'package:analyzer_experimental/src/generated/ast.dart': Error: line 7 pos 1: library handler failed
+import 'java_core.dart';
+^
+'package:web_ui/src/compiler.dart': Error: line 10 pos 1: library handler failed
+import 'package:analyzer_experimental/src/generated/ast.dart' show Directive, UriBasedDirective;
+^
+'package:web_ui/dwc.dart': Error: line 12 pos 1: library handler failed
+import 'src/compiler.dart';
+^
+'package:web_ui/component_build.dart': Error: line 26 pos 1: library handler failed
+import 'dwc.dart' as dwc;
+^
+'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [114 ms]
+
+---
+build.dart --machine --removed=pubspec.lock
+Unable to open file: C:/Development/canvas-astar.dart/packages/web_ui/component_build.dart'file:///C:/Development/canvas-astar.dart/build.dart': Error: line 1 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [91 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  93 ms
+build.dart finished [1457 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/canvas_astar.html                    -- 857 ms
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.css"}}]
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.html"}}]
+Total time                                                   -- 931 ms
+build.dart finished [1396 ms]
+
+---
+build.dart --machine --changed=web\canvas_astar.dart
+Total time spent on web/canvas_astar.html                    -- 550 ms
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.css"}}]
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.html"}}]
+Total time                                                   -- 614 ms
+build.dart finished [986 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/canvas_astar.html                    -- 622 ms
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.css"}}]
+[{"method":"mapping","params":{"from":"web/canvas_astar.html","to":"web\\out\\canvas_astar.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\canvas_astar.html"}}]
+Total time                                                   -- 683 ms
+build.dart finished [1062 ms]
+

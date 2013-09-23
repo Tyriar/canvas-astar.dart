@@ -4,6 +4,8 @@
  *
  * Created by Daniel Imms, http://www.growingwiththeweb.com
  */
+library AstarMap;
+
 import 'dart:html';
 import 'dart:math' as math;
 import 'astarnode.dart';

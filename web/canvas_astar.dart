@@ -10,9 +10,9 @@ import 'package:web_ui/web_ui.dart';
 import 'astarmap.dart';
 import 'astarnode.dart';
 
-@observable String mapWidth = '64';
+@observable String mapWidth  = '64';
 @observable String mapHeight = '48';
-@observable String mapScale = '10';
+@observable String mapScale  = '10';
 
 CanvasElement canvas;
 CanvasRenderingContext2D context;
