@@ -228,3 +228,4 @@ packages
 *.js.map
 .buildlog
 web/out/*
+pubspec.lock

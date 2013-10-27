@@ -2,5 +2,5 @@ import 'package:web_ui/component_build.dart';
 import 'dart:io';
 
 void main() {
-  build(new Options().arguments, ['web/canvas_astar.html']);
+  build(new Options().arguments, ['web/pathfinding_visualizer.html']);
 }

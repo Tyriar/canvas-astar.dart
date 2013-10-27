@@ -1,21 +1,17 @@
-/* 
+/**
  * canvas-astar.dart
  * MIT licensed
  *
  * Created by Daniel Imms, http://www.growingwiththeweb.com
  */
-library Astarnode;
+part of PathfindingVisualizer;
 
-class AstarNode {
-  AstarNode parent;
-  int x;
-  int y;
+class AStarNode extends MapNode {
+  AStarNode parent;
   double g;
   double f;
 
-  AstarNode(int this.x, int this.y, {AstarNode this.parent: null, double cost: 0.0}) {
+  AStarNode(int x, int y, {AStarNode this.parent: null, double cost: 0.0}) : super(x, y) {
     g = (parent != null ? parent.g : 0) + cost;
   }
-
-  operator ==(AstarNode other) => x == other.x && y == other.y;
 }

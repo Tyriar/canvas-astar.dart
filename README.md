@@ -1,4 +1,4 @@
-# canvas-astar.dart
+# Pathfinding Visualizer
 
 A port of my canvas-astar.js project to Dart.
 

@@ -1,14 +1,22 @@
-/* 
+/**
  * canvas-astar.dart
  * MIT licensed
  *
  * Created by Daniel Imms, http://www.growingwiththeweb.com
  */
+library PathfindingVisualizer;
+
 import 'dart:core';
 import 'dart:html';
+import 'dart:math' as math;
 import 'package:web_ui/web_ui.dart';
-import 'astarmap.dart';
-import 'astarnode.dart';
+
+part 'array2d.dart';
+part 'astar.dart';
+part 'astarnode.dart';
+part 'map.dart';
+part 'mapnode.dart';
+part 'pathfindingalgorithm.dart';
 
 @observable String mapWidth  = '64';
 @observable String mapHeight = '48';
@@ -16,20 +24,20 @@ import 'astarnode.dart';
 
 CanvasElement canvas;
 CanvasRenderingContext2D context;
-AstarMap map;
-AstarNode start;
-AstarNode goal;
+Map map;
+AStarNode start;
+AStarNode goal;
 
 bool isMouseDown = false;
 
 void main() {
-  canvas = query('#astar');
+  canvas = querySelector('#astar');
   resizeCanvas();
   
   context = canvas.getContext('2d') as CanvasRenderingContext2D;
-  map = new AstarMap(context,  int.parse(mapWidth), int.parse(mapHeight), int.parse(mapScale));
-  start = new AstarNode(0, 0);
-  goal = new AstarNode(map.width - 1, map.height - 1);
+  map = new Map(context,  int.parse(mapWidth), int.parse(mapHeight), int.parse(mapScale));
+  start = new AStarNode(0, 0);
+  goal = new AStarNode(map.width - 1, map.height - 1);
   
   registerEvents(canvas);
 }
@@ -39,8 +47,8 @@ void registerEvents(CanvasElement canvas) {
   canvas.onMouseUp.listen(canvasMouseUp);
   canvas.onMouseMove.listen(canvasMouseMove);
   canvas.onContextMenu.listen((MouseEvent e) => e.preventDefault());
-  query('#run').onClick.listen((e) => run());
-  query('#clear').onClick.listen(clearMap);
+  querySelector('#run').onClick.listen((e) => run());
+  querySelector('#clear').onClick.listen(clearMap);
 }
 
 int get canvasWidth  => int.parse(mapScale) * int.parse(mapWidth);
@@ -54,7 +62,7 @@ void resizeCanvas() {
 
 void resizeMap() {
   map.resize(int.parse(mapWidth), int.parse(mapHeight), int.parse(mapScale));
-  goal = new AstarNode(map.width - 1, map.height - 1);
+  goal = new MapNode(map.width - 1, map.height - 1);
 }
 
 void clearMap(MouseEvent e) {
@@ -67,7 +75,8 @@ void run() {
   resizeCanvas();
   resizeMap();
   map.clearPath();
-  map.astar(start, goal);
+  AStar pathfindingAlgorithm = new AStar(map);
+  pathfindingAlgorithm.run(start, goal);
 }
 
 void canvasMouseDown(MouseEvent e) {

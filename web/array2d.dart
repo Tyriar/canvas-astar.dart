@@ -4,7 +4,7 @@
  *
  * Created by Daniel Imms, http://www.growingwiththeweb.com
  */
-library AstarMap;
+part of PathfindingVisualizer;
 
 class Array2d<T> {
   List<List<T>> array;

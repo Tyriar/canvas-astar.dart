@@ -1,0 +1,11 @@
+canvas {
+  user-select: none;
+}
+
+canvas:hover {
+  cursor: crosshair;
+}
+
+label {
+  display: block;
+}
