@@ -1,9 +1,11 @@
-/* 
+/**
  * canvas-astar.dart
  * MIT licensed
  *
  * Created by Daniel Imms, http://www.growingwiththeweb.com
  */
+library AstarMap;
+
 class Array2d<T> {
   List<List<T>> array;
   T defaultValue = null;
