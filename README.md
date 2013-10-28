@@ -1,10 +1,17 @@
 # Pathfinding Visualizer
 
-A port of my canvas-astar.js project to Dart.
+An application that visualizes pathfinding algorithms, built with `<canvas>` and [Dart][1].
 
- - [Demo (JS)][1]
- - [Write up][2]
+## Supported algorithms
+
+- A*
+
+## Links
+
+ - [Demo][2]
+ - [Write up][3]
  
  
-  [1]: http://www.growingwiththeweb.com/p/html5-demo.html
-  [2]: http://www.growingwiththeweb.com/2012/06/a-pathfinding-algorithm.html
+ [1]: https://www.dartlang.org/
+ [2]: http://www.growingwiththeweb.com/p/html5-demo.html
+ [3]: http://www.growingwiththeweb.com/2012/06/a-pathfinding-algorithm.html
