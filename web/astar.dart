@@ -7,14 +7,16 @@
 part of PathfindingVisualizer;
 
 class AStar implements PathfindingAlgorithm {
-  final double COST_STRAIGHT = 1.0;
-  final double COST_DIAGONAL = 1.414; // approximation of sqrt(2)
+  static final double COST_STRAIGHT = 1.0;
+  static final double COST_DIAGONAL = 1.414; // approximation of sqrt(2)
+  static final String NAME = "A*";
   
-  Map map;
+  List<MapNode> pathNodes;
+  List<MapNode> visitedNodes;
   
-  AStar(this.map);
+  AStar();
   
-  void run(MapNode start, MapNode goal) {
+  void run(MapNode start, MapNode goal, Map map) {
     var closed = [];
     var open = [start];
     var cameFrom = [];
@@ -31,12 +33,19 @@ class AStar implements PathfindingAlgorithm {
       var current = open[lowestF];
 
       if (current == goal) {
-        map.draw(closed, open, current, start, goal);
-        var info = 'Map size = ${map.width}x${map.height}' +
+        visitedNodes = closed;
+        pathNodes = new List<AStarNode>();
+        pathNodes.add(current);
+        while (current.parent != null) {
+          current = current.parent;
+          pathNodes.add(current);
+        }
+        //map.draw(closed, open, current, start, goal);
+        /*var info = 'Map size = ${map.width}x${map.height}' +
             'Total number of nodes = ${map.width * map.height}' +
             'Number of nodes in open list = ${open.length}' +
             'Number of nodes in closed list = ${closed.length}';
-        querySelector('#info').text = info;
+        querySelector('#info').text = info;*/
         return;
       }
 
@@ -44,7 +53,7 @@ class AStar implements PathfindingAlgorithm {
       closed.add(current);
       map.drawVisited(current.x, current.y);
 
-      var neighbors = neighborNodes(current);
+      var neighbors = neighborNodes(map, current);
       for (var i = 0; i < neighbors.length; i++) {
         if (indexOfNode(closed, neighbors[i]) == -1) { // Skip if in closed list
           var index = indexOfNode(open, neighbors[i]);
@@ -61,8 +70,11 @@ class AStar implements PathfindingAlgorithm {
 
     querySelector('#info').text = 'No path exists';
   }
+
+  List<MapNode> getPathNodes() => pathNodes;
+  List<MapNode> getVisitedNodes() => visitedNodes;
   
-  List<AStarNode> neighborNodes(AStarNode n) {
+  List<AStarNode> neighborNodes(Map map, AStarNode n) {
     List<AStarNode> neighbors = new List<AStarNode>();
     var count = 0;
 

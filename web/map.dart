@@ -98,7 +98,7 @@ class Map {
     context.fillRect(x * scale, y * scale, scale, scale);
   }
 
-  void draw(closed, open, AStarNode foundGoalNode, MapNode start, MapNode goal) {
+  void drawOld(closed, open, AStarNode foundGoalNode, MapNode start, MapNode goal) {
     drawStartGoal(goal.x, goal.y);
     drawStartGoal(start.x, start.y);
 
@@ -108,6 +108,23 @@ class Map {
     while (foundGoalNode.parent != null) {
       foundGoalNode = foundGoalNode.parent;
       context.lineTo((foundGoalNode.x + 0.5) * scale, (foundGoalNode.y + 0.5) * scale);
+    }
+
+    context.strokeStyle = PATH_COLOR;
+    context.lineWidth = PATH_WIDTH;
+    context.stroke();
+    context.closePath();
+  }
+  
+  void draw(List<MapNode> path, List<MapNode> visited, MapNode start, MapNode goal) {
+    drawStartGoal(goal.x, goal.y);
+    drawStartGoal(start.x, start.y);
+
+    context.beginPath();
+    context.moveTo((path[0].x + 0.5) * scale, (path[0].y + 0.5) * scale);
+
+    for (var i = 1; i < path.length; i++) {
+      context.lineTo((path[i].x + 0.5) * scale, (path[i].y + 0.5) * scale);
     }
 
     context.strokeStyle = PATH_COLOR;

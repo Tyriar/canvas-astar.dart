@@ -7,5 +7,10 @@
 part of PathfindingVisualizer;
 
 abstract class PathfindingAlgorithm {
-  void run(MapNode start, MapNode goal);
+  static final String NAME = "";
+  
+  List<MapNode> pathNodes;
+  List<MapNode> visitedNodes;
+  
+  void run(MapNode start, MapNode goal, Map map);
 }

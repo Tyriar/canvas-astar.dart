@@ -11,13 +11,14 @@ import 'dart:html';
 import 'dart:math' as math;
 import 'package:web_ui/web_ui.dart';
 
-part 'array2d.dart';
+part 'array_2d.dart';
 part 'astar.dart';
-part 'astarnode.dart';
+part 'astar_node.dart';
 part 'map.dart';
-part 'mapnode.dart';
-part 'pathfindingalgorithm.dart';
+part 'map_node.dart';
+part 'pathfinding_algorithm.dart';
 
+@observable String algorithm = "";
 @observable String mapWidth  = '64';
 @observable String mapHeight = '48';
 @observable String mapScale  = '10';
@@ -25,8 +26,10 @@ part 'pathfindingalgorithm.dart';
 CanvasElement canvas;
 CanvasRenderingContext2D context;
 Map map;
-AStarNode start;
-AStarNode goal;
+MapNode start;
+MapNode goal;
+
+List<PathfindingAlgorithm> algorithms = [new AStar()]; 
 
 bool isMouseDown = false;
 
@@ -38,6 +41,9 @@ void main() {
   map = new Map(context,  int.parse(mapWidth), int.parse(mapHeight), int.parse(mapScale));
   start = new AStarNode(0, 0);
   goal = new AStarNode(map.width - 1, map.height - 1);
+  
+  var algorithmSelect = querySelector('#algorithm');
+  algorithmSelect.append(new OptionElement(data: AStar.NAME, value: AStar.NAME));
   
   registerEvents(canvas);
 }
@@ -75,8 +81,11 @@ void run() {
   resizeCanvas();
   resizeMap();
   map.clearPath();
-  AStar pathfindingAlgorithm = new AStar(map);
-  pathfindingAlgorithm.run(start, goal);
+  PathfindingAlgorithm pathfindingAlgorithm = new AStar();
+  pathfindingAlgorithm.run(start, goal, map);
+  var path = pathfindingAlgorithm.pathNodes;
+  var visited = pathfindingAlgorithm.visitedNodes;
+  map.draw(path, visited, start, goal);
 }
 
 void canvasMouseDown(MouseEvent e) {
